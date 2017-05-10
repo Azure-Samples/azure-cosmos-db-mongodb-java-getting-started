@@ -13,14 +13,14 @@ import com.mongodb.client.model.Filters;
  *
  */
 public class Program {
-	
+
     public static void main(String[] args)
     {
 	/*
 	* Replace connection string from the Azure Cosmos Portal
         */
-        MongoClientURI uri = new MongoClientURI("FILLME");
-		
+        MongoClientURI uri = new MongoClientURI("mongodb://arramac-mongo:5ALlMbFYrNLbd7p7LtDe6ioTNbrzv6TwqFwoyEvt919mNaLYQavwAqEjEKnTY82sy8D5s6D0OhSQdve6Ka6Peg==@arramac-mongo.documents.azure.com:10255/?ssl=true&sslInvalidHostNameAllowed=true");
+
         MongoClient mongoClient = null;
         try {
             mongoClient = new MongoClient(uri);        
