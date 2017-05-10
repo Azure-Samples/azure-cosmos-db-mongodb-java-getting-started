@@ -1,10 +1,10 @@
 ---
-services: documentdb
+services: cosmos-db
 platforms: java
 author: arramac
 ---
 
-# Developing a Java app using Azure Cosmos DB
+# Developing a Java app using Azure Cosmos DB's MongoDB API
 Azure Cosmos DB is a globally distributed multi-model database. One of the supported APIs is the MongoDB API, which provides a document model and support for client drivers in many platforms. This sample shows you how to use the Azure Cosmos DB with the MongoDB API to store and access data from a Java application.
 
 ## Running this sample
