@@ -1,4 +1,4 @@
-package MongoDBGetStarted.Program;
+package GetStarted;
 
 import org.bson.Document;
 
