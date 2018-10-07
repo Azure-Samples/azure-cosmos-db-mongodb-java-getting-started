@@ -19,6 +19,12 @@ Azure Cosmos DB is a globally distributed multi-model database. One of the suppo
 
 * Next, substitute the endpoint and authorization key in Program.java with your Cosmos DB account's values. 
 
+* Note: For CosmosDb Emulator copy Mongo Connection String shown at (https://localhost:8081/_explorer/index.html), it shoud be in the form:
+```
+mongodb://localhost:GENERATED_KEY@IP_ADDRESS_OF_EMULATOR:10250/DATABASE_NAME?ssl=true&amp;sslverifycertificates=false
+```
+Add `sslverifycertificates=false` to avoid TLS handshake problems, or import and set certificate in JVM as described
+ [How to use ssl certs in Java](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator-export-ssl-certificates#how-to-use-the-certificate-in-java)
 * From a command prompt or shell, run `mvn package` to compile and resolve dependencies.
 
 * From a command prompt or shell, run `mvn exec:java -D exec.mainClass=GetStarted.Program` to run the application.
