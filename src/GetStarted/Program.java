@@ -9,7 +9,7 @@ import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.model.Filters;
 
 /**
- * Simple application that shows how to use Azure Cosmos DB with the MongoDB API and Java.
+ * Simple application that shows how to use Azure Cosmos DB for MongoDB API in a Java application.
  *
  */
 public class Program {
@@ -17,7 +17,7 @@ public class Program {
     public static void main(String[] args)
     {
 	/*
-	* Replace connection string from the Azure Cosmos Portal
+	* Replace connection string from the Azure Cosmos DB Portal
         */
         MongoClientURI uri = new MongoClientURI("FILLME");
 		
